@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>NamerPersonDrake</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[Drake] [Drakesurname]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>Drake</keyword>
+          <path>Drake_Names/Drake</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Drakesurname</keyword>
+          <path>Drake_Names/Drakesurname</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+</Defs>

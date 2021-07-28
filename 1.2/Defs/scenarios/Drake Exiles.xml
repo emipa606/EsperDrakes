@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ScenarioDef>
+    <defName>DrakeScenario</defName>
+    <label>Drake Exiles </label>
+    <description>With your home reduced to ash, you and a trustworthy few fled desperately to new horizons, bringing what little you could with you; some food, weapons, and a single livestock.</description>
+    <scenario>
+      <summary>A band of hungry, ill-prepared drakes in search of a new life.</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>playerdrakecolony</factionDef>
+      </playerFaction>
+      <parts>
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>5</pawnCount>
+          <pawnChoiceCount>5</pawnChoiceCount>
+        </li>
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+        </li>
+        <li Class="ScenPart_ForcedHediff">
+          <def>ForcedHediff</def>
+          <chance>0.3</chance>
+          <context>PlayerStarter</context>
+          <hideOffMap>True</hideOffMap>
+          <hediff>Malnutrition</hediff>
+          <severityRange>0~0.1026667</severityRange>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Kibble</thingDef>
+          <count>75</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MedicineHerbal</thingDef>
+          <count>30</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Weapon_GrenadeMolotov</thingDef>
+        </li>
+        <li Class="ScenPart_StartingAnimal">
+          <def>StartingAnimal</def>
+          <animalKind>Pig</animalKind>
+          <count>1</count>
+          <bondToRandomPlayerPawnChance>1</bondToRandomPlayerPawnChance>
+        </li>
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>WoodLog</thingDef>
+          <count>300</count>
+        </li>
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>With your home reduced to ash, you and a trustworthy few fled desperately to new horizons, bringing what little you could with you; some food, weapons, and a single livestock.</text>
+          <textKey>GameStartDialog</textKey>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+      </parts>
+    </scenario>
+  </ScenarioDef>
+</Defs>

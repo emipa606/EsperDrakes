@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Esper Drakes</name>
+  <author>Squidd and J.C.Wilson</author>
+  <packageId>squid.esperdrakes</packageId>
+  <supportedVersions>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
+      <downloadUrl>https://github.com/erdelf/AlienRaces/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>erdelf.HumanoidAlienRaces</li>
+  </loadAfter>
+  <description>v1.0.2
+
+DRAKES
+A previously unheard of species of intelligent serpentine aliens has come to light, aggressive in nature and evoking ancient legends with their terrific draconic appearances. Face off against a deadly new threat and make friends with a powerful new ally, the Esper Drake.
+
+INFO
+This mod introduces a new playable humanoid species equipped with vicious bladed weapons and a much higher psychic sensitivity compared to the average Human. Being natural predators, they're only equipped to eat meat and they live for the hunt.
+
+They're not very picky about what they eat, so long as it's flesh. They'll even eat it right off the bone. It serves the Drake's intense metabolism well.
+
+They don't care for comfort and don't mind sleeping on the floor, but an impressive living space will satisfy them all the same.
+
+Their unusual limbs make the use of most traditional weapons effectively impossible, but they have no trouble with thrown weapons like molotovs, grenades and pila.
+
+This mod also introduces a custom scenario granting the player five Drakes in their starting party, and a new extremely hostile faction of tribal Drakes. They can be recruited by outsiders, but it's not going to be easy - and their companionship might come with consequences.</description>
+</ModMetaData>

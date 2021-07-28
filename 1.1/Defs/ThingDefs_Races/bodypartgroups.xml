@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BodyPartGroupDef>
+    <defName>leftspade</defName>
+    <label>Left Spade</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>rightspade</defName>
+    <label>Right Spade</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>middlespade</defName>
+    <label>Middle Spade</label>
+  </BodyPartGroupDef>
+</Defs>
