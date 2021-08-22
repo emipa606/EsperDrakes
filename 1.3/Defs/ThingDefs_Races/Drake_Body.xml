@@ -147,6 +147,7 @@
                     <li>FullHead</li>
                     <li>Eyes</li>
                   </groups>
+                  <woundAnchorTag>LeftEye</woundAnchorTag>
                 </li>
                 <li>
                   <def>drake_eye</def>
@@ -174,6 +175,7 @@
                     <li>FullHead</li>
                     <li>Eyes</li>
                   </groups>
+                  <woundAnchorTag>RightEye</woundAnchorTag>
                 </li>
                 <li>
                   <def>drake_eye</def>
@@ -255,6 +257,7 @@
           <groups>
             <li>Legs</li>
           </groups>
+          <woundAnchorTag>LeftLeg</woundAnchorTag>
           <parts>
             <li>
               <def>drake_spade_organ</def>
@@ -293,6 +296,7 @@
           <groups>
             <li>Legs</li>
           </groups>
+          <woundAnchorTag>RightLeg</woundAnchorTag>
           <parts>
             <li>
               <def>drake_spade_organ</def>
