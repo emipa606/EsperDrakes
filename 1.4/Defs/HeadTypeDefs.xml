@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Drake_Average</defName>
+    <graphicPath>DrakePawn/Head/Average_Normal</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+</Defs>

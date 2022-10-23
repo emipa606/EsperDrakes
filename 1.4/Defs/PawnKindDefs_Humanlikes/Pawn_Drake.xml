@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnKindDef Name="drakekind_base" Abstract="True">
+    <race>race_drake</race>
+    <defaultFactionType>DrakeTribe</defaultFactionType>
+    <initialWillRange>4~7</initialWillRange>
+    <initialResistanceRange>45~54</initialResistanceRange>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>DrakeTribalBackstory</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <chemicalAddictionChance>0</chemicalAddictionChance>
+    <invNutrition>2</invNutrition>
+    <invFoodDef>Pemmican</invFoodDef>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <maxGenerationAge>10000</maxGenerationAge>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.8</max>
+    </gearHealthRange>
+  </PawnKindDef>
+  <PawnKindDef Name="drakekingkind" ParentName="drakekind_base">
+    <defName>drakekingkind</defName>
+    <label>DrakeKing</label>
+    <race>race_drake</race>
+    <defaultFactionType>DrakeTribe</defaultFactionType>
+    <combatPower>1000000</combatPower>
+    <factionLeader>true</factionLeader>
+  </PawnKindDef>
+  <PawnKindDef Name="drake_standard" ParentName="drakekind_base">
+    <defName>drake_standard</defName>
+    <label>Lasher</label>
+    <race>race_drake</race>
+    <defaultFactionType>DrakeTribe</defaultFactionType>
+    <combatPower>70</combatPower>
+    <factionLeader>false</factionLeader>
+  </PawnKindDef>
+  <PawnKindDef Name="drake_ranged" ParentName="drakekind_base">
+    <defName>drake_ranged</defName>
+    <label>Thrower</label>
+    <race>race_drake</race>
+    <defaultFactionType>DrakeTribe</defaultFactionType>
+    <combatPower>70</combatPower>
+    <factionLeader>false</factionLeader>
+    <weaponMoney>245~500</weaponMoney>
+    <weaponTags>
+      <li>GrenadeDestructive</li>
+    </weaponTags>
+  </PawnKindDef>
+</Defs>

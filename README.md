@@ -1,14 +1,14 @@
 # EsperDrakes
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Squidd and J.C.Wilsons mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2020737334
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 v1.0.2
 
@@ -26,7 +26,7 @@ Their unusual limbs make the use of most traditional weapons effectively impossi
 
 This mod also introduces a custom scenario granting the player five Drakes in their starting party, and a new extremely hostile faction of tribal Drakes. They can be recruited by outsiders, but it's not going to be easy - and their companionship might come with consequences.
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 

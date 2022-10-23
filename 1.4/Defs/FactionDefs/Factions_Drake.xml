@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef ParentName="FactionBase">
+    <defName>playerdrakecolony</defName>
+    <label>New Drake Tribe</label>
+    <description>A new tribe spawned by Drakes.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>drake_standard</basicMemberKind>
+    <pawnsPlural>Tribespeople</pawnsPlural>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <playerInitialSettlementNameMaker>NamerSettlementTribal</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <techLevel>Neolithic</techLevel>
+    <backstoryCategories>
+      <li>DrakeTribalBackstory</li>
+    </backstoryCategories>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>DrakeTribalBackstory</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <factionIconPath>Symbol</factionIconPath>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <startingResearchTags>
+      <li>TribalStart</li>
+    </startingResearchTags>
+    <allowedCultures>
+      <li>Esperian</li>
+    </allowedCultures>
+    <raidLootValueFromPointsCurve>
+      <points>
+        <li>(35,     15)</li>
+        <li>(100,   120)</li>
+        <li>(1000,  500)</li>
+        <li>(2000,  800)</li>
+        <li>(4000, 1000)</li>
+      </points>
+    </raidLootValueFromPointsCurve>
+  </FactionDef>
+  <FactionDef ParentName="FactionBase">
+    <defName>DrakeTribe</defName>
+    <label>Savage Drakes</label>
+    <description>A band of primitive territorial warrior Drakes.</description>
+    <pawnsPlural>Drakes</pawnsPlural>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>false</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>Elder</leaderTitle>
+    <fixedLeaderKinds>
+      <li>drakekingkind</li>
+    </fixedLeaderKinds>
+    <factionIconPath>Symbol</factionIconPath>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <colorSpectrum>
+      <li>(1,0.3,0.3,1)</li>
+      <li>(1,0.3,0.3,1)</li>
+    </colorSpectrum>
+    <permanentEnemy>true</permanentEnemy>
+    <raidCommonalityFromPointsCurve>
+      <points>
+        <li>(100, 0.5)</li>
+        <li>(400, 0.8)</li>
+        <li>(2000, 0.9)</li>
+        <li>(4000, 1)</li>
+      </points>
+    </raidCommonalityFromPointsCurve>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <techLevel>Neolithic</techLevel>
+    <backstoryCategories>
+      <li>DrakeTribalBackstory</li>
+    </backstoryCategories>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>DrakeTribalBackstory</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <allowedCultures>
+      <li>Esperian</li>
+    </allowedCultures>
+    <caravanTraderKinds>
+      <li>Caravan_Neolithic_BulkGoods</li>
+      <li>Caravan_Neolithic_WarMerchant</li>
+      <li>Caravan_Neolithic_Slaver</li>
+      <li>Caravan_Neolithic_ShamanMerchant</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>0</min>
+      <max>90</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(800, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <options>
+          <drake_standard>50</drake_standard>
+          <drake_ranged>10</drake_ranged>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <drake_standard>50</drake_standard>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <drake_standard>1</drake_standard>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2</Alpaca>
+          <Thrumbo>1</Thrumbo>
+        </carriers>
+        <guards>
+          <drake_standard>50</drake_standard>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <drake_standard>50</drake_standard>
+          <drakekingkind>100</drakekingkind>
+        </options>
+      </li>
+    </pawnGroupMakers>
+  </FactionDef>
+</Defs>

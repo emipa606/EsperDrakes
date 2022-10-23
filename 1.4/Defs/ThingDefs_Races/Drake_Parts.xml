@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BodyPartDef>
+    <defName>drake_eye</defName>
+    <label>drake eye</label>
+    <hitPoints>10</hitPoints>
+    <permanentInjuryChanceFactor>15</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <socketed>true</socketed>
+    <tags>
+      <li>SightSource</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>drake_spade_organ</defName>
+    <label>spade</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>0</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>ManipulationLimbSegment</li>
+    </tags>
+  </BodyPartDef>
+</Defs>
