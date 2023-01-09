@@ -40,3 +40,4 @@ This mod also introduces a custom scenario granting the player five Drakes in th
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2559694451]Last updated 2023-01-09
